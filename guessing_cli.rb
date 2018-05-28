@@ -14,5 +14,6 @@ def run_guessing_game
   elsif input != random
     puts "The computer guessed #{random}."
   end
+end
   puts "Goodbye!"
 end
