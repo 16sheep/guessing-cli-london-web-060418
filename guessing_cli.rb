@@ -3,8 +3,8 @@
 def run_guessing_game
   puts "Guess a number between 1 and 6."
   random = rand(1..6)
-  input = gets.chomp.to_i
-  if input == random
+  input = gets.chomp
+  if input == random.to_s
     puts "You guessed the correct number!"
   elsif input == "exit"
     puts "Goodbye!"
